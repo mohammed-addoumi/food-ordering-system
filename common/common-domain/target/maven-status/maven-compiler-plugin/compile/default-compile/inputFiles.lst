@@ -1,0 +1,13 @@
+/Users/simoaddoumi/Downloads/food-ordering-sysetm/common/common-domain/src/main/java/com/food/ordering/system/domain/valueobjects/OrderStatus.java
+/Users/simoaddoumi/Downloads/food-ordering-sysetm/common/common-domain/src/main/java/com/food/ordering/system/domain/valueobjects/RestaurantId.java
+/Users/simoaddoumi/Downloads/food-ordering-sysetm/common/common-domain/src/main/java/com/food/ordering/system/domain/events/DomainEvent.java
+/Users/simoaddoumi/Downloads/food-ordering-sysetm/common/common-domain/src/main/java/com/food/ordering/system/domain/valueobjects/BaseId.java
+/Users/simoaddoumi/Downloads/food-ordering-sysetm/common/common-domain/src/main/java/com/food/ordering/system/domain/valueobjects/CustomerId.java
+/Users/simoaddoumi/Downloads/food-ordering-sysetm/common/common-domain/src/main/java/com/food/ordering/system/domain/valueobjects/OrderApprovalStatus.java
+/Users/simoaddoumi/Downloads/food-ordering-sysetm/common/common-domain/src/main/java/com/food/ordering/system/domain/valueobjects/Money.java
+/Users/simoaddoumi/Downloads/food-ordering-sysetm/common/common-domain/src/main/java/com/food/ordering/system/domain/entity/BaseEntity.java
+/Users/simoaddoumi/Downloads/food-ordering-sysetm/common/common-domain/src/main/java/com/food/ordering/system/domain/exceptions/DomainException.java
+/Users/simoaddoumi/Downloads/food-ordering-sysetm/common/common-domain/src/main/java/com/food/ordering/system/domain/valueobjects/OrderId.java
+/Users/simoaddoumi/Downloads/food-ordering-sysetm/common/common-domain/src/main/java/com/food/ordering/system/domain/valueobjects/ProductId.java
+/Users/simoaddoumi/Downloads/food-ordering-sysetm/common/common-domain/src/main/java/com/food/ordering/system/domain/valueobjects/PaymentStatus.java
+/Users/simoaddoumi/Downloads/food-ordering-sysetm/common/common-domain/src/main/java/com/food/ordering/system/domain/entity/AggregateRoot.java

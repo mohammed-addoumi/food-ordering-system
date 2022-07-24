@@ -1,0 +1,15 @@
+/Users/simoaddoumi/Downloads/food-ordering-sysetm/order-service/order-domain/order-domain-core/src/main/java/com/ordering/food/system/order/service/domain/entity/Restaurant.java
+/Users/simoaddoumi/Downloads/food-ordering-sysetm/order-service/order-domain/order-domain-core/src/main/java/com/ordering/food/system/order/service/domain/events/OrderPaidEvent.java
+/Users/simoaddoumi/Downloads/food-ordering-sysetm/order-service/order-domain/order-domain-core/src/main/java/com/ordering/food/system/order/service/domain/exceptions/OrderDomainException.java
+/Users/simoaddoumi/Downloads/food-ordering-sysetm/order-service/order-domain/order-domain-core/src/main/java/com/ordering/food/system/order/service/domain/events/OrderEvent.java
+/Users/simoaddoumi/Downloads/food-ordering-sysetm/order-service/order-domain/order-domain-core/src/main/java/com/ordering/food/system/order/service/domain/entity/Customer.java
+/Users/simoaddoumi/Downloads/food-ordering-sysetm/order-service/order-domain/order-domain-core/src/main/java/com/ordering/food/system/order/service/domain/entity/OrderItem.java
+/Users/simoaddoumi/Downloads/food-ordering-sysetm/order-service/order-domain/order-domain-core/src/main/java/com/ordering/food/system/order/service/domain/OrderDomainServiceImpl.java
+/Users/simoaddoumi/Downloads/food-ordering-sysetm/order-service/order-domain/order-domain-core/src/main/java/com/ordering/food/system/order/service/domain/entity/Order.java
+/Users/simoaddoumi/Downloads/food-ordering-sysetm/order-service/order-domain/order-domain-core/src/main/java/com/ordering/food/system/order/service/domain/valueobjects/TrackingId.java
+/Users/simoaddoumi/Downloads/food-ordering-sysetm/order-service/order-domain/order-domain-core/src/main/java/com/ordering/food/system/order/service/domain/entity/Product.java
+/Users/simoaddoumi/Downloads/food-ordering-sysetm/order-service/order-domain/order-domain-core/src/main/java/com/ordering/food/system/order/service/domain/events/OrderCreatedEvent.java
+/Users/simoaddoumi/Downloads/food-ordering-sysetm/order-service/order-domain/order-domain-core/src/main/java/com/ordering/food/system/order/service/domain/valueobjects/StreetAdress.java
+/Users/simoaddoumi/Downloads/food-ordering-sysetm/order-service/order-domain/order-domain-core/src/main/java/com/ordering/food/system/order/service/domain/OrderDomainService.java
+/Users/simoaddoumi/Downloads/food-ordering-sysetm/order-service/order-domain/order-domain-core/src/main/java/com/ordering/food/system/order/service/domain/events/OrderCancelledEvent.java
+/Users/simoaddoumi/Downloads/food-ordering-sysetm/order-service/order-domain/order-domain-core/src/main/java/com/ordering/food/system/order/service/domain/valueobjects/OrderItemId.java
