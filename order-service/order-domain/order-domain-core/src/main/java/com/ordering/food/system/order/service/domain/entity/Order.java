@@ -9,9 +9,8 @@ import com.ordering.food.system.order.service.domain.valueobjects.TrackingId;
 
 import java.util.List;
 import java.util.UUID;
-import java.util.stream.Collectors;
 
-import static java.util.stream.Collectors.*;
+import static java.util.stream.Collectors.toList;
 
 public class Order extends AggregateRoot<OrderId> {
 
@@ -34,6 +33,10 @@ public class Order extends AggregateRoot<OrderId> {
         trackingId = builder.trackingId;
         orderStatus = builder.orderStatus;
         failureMessages = builder.failureMessages;
+    }
+
+    public static Builder builder() {
+        return new Builder();
     }
 
     public CustomerId getCustomerId() {
@@ -66,10 +69,6 @@ public class Order extends AggregateRoot<OrderId> {
 
     public List<String> getFailureMessages() {
         return failureMessages;
-    }
-
-    public static Builder newBuilder(CustomerId customerId, RestaurantId restaurantId, StreetAdress deliveryAdress) {
-        return new Builder(customerId, restaurantId, deliveryAdress);
     }
 
     public void initializeOrder(){
@@ -165,25 +164,38 @@ public class Order extends AggregateRoot<OrderId> {
         }
     }
 
+
     public static final class Builder {
         private OrderId id;
-        private final CustomerId customerId;
-        private final RestaurantId restaurantId;
-        private final StreetAdress deliveryAdress;
+        private CustomerId customerId;
+        private RestaurantId restaurantId;
+        private StreetAdress deliveryAdress;
         private Money price;
         private List<OrderItem> orderItems;
         private TrackingId trackingId;
         private OrderStatus orderStatus;
         private List<String> failureMessages;
 
-        private Builder(CustomerId customerId, RestaurantId restaurantId, StreetAdress deliveryAdress) {
-            this.customerId = customerId;
-            this.restaurantId = restaurantId;
-            this.deliveryAdress = deliveryAdress;
+        private Builder() {
         }
 
         public Builder id(OrderId val) {
             id = val;
+            return this;
+        }
+
+        public Builder customerId(CustomerId val) {
+            customerId = val;
+            return this;
+        }
+
+        public Builder restaurantId(RestaurantId val) {
+            restaurantId = val;
+            return this;
+        }
+
+        public Builder deliveryAdress(StreetAdress val) {
+            deliveryAdress = val;
             return this;
         }
 
@@ -216,6 +228,4 @@ public class Order extends AggregateRoot<OrderId> {
             return new Order(this);
         }
     }
-
-
 }

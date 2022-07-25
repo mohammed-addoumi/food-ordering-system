@@ -10,9 +10,9 @@ public class Restaurant extends AggregateRoot<RestaurantId> {
     private final List<Product> productList;
     private boolean active;
 
-
-
-    public Restaurant(List<Product> productList) {
+    public Restaurant(RestaurantId restaurantId,
+                      List<Product> productList) {
+        super.setId(restaurantId);
         this.productList = productList;
     }
 

@@ -7,6 +7,7 @@ import lombok.Getter;
 import javax.validation.constraints.NotNull;
 import java.math.BigDecimal;
 import java.util.List;
+import java.util.UUID;
 
 @Builder
 @Getter
@@ -14,9 +15,9 @@ import java.util.List;
 public class CreateOrderCommand {
 
     @NotNull
-    private String customerId;
+    private UUID customerId;
     @NotNull
-    private String restaurantId;
+    private UUID restaurantId;
     @NotNull
     private BigDecimal price;
     @NotNull

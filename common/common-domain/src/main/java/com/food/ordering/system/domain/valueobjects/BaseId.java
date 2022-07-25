@@ -6,4 +6,8 @@ public abstract class BaseId<T> {
     protected BaseId(T value) {
         this.value = value;
     }
+
+    public T getValue() {
+        return value;
+    }
 }
