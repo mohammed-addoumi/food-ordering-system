@@ -11,9 +11,12 @@ import org.springframework.stereotype.Service;
 public class OrderApplicationServiceImpl implements OrderApplicationService {
 
     private final CreateOrderCommandHandler createOrderCommandHandler;
+    private final TrackOrderQueryHandler trackOrderQueryHandler;
 
-    public OrderApplicationServiceImpl(CreateOrderCommandHandler createOrderCommandHandler) {
+    public OrderApplicationServiceImpl(CreateOrderCommandHandler createOrderCommandHandler,
+                                       TrackOrderQueryHandler trackOrderQueryHandler) {
         this.createOrderCommandHandler = createOrderCommandHandler;
+        this.trackOrderQueryHandler = trackOrderQueryHandler;
     }
 
 
@@ -24,6 +27,7 @@ public class OrderApplicationServiceImpl implements OrderApplicationService {
 
     @Override
     public TrackOrderResponse trackOrder(TrackOrderQuery trackOrderQuery) {
-        return null;
+
+        return trackOrderQueryHandler.handleTrackOrder(trackOrderQuery);
     }
 }
